@@ -1,0 +1,27 @@
+C:\Users\SzN\AppData\Local\Programs\Python\Python311\python.exe "G:\NWU\Python\Thesis on Database Security\SQL Injection Attack\SVM-SQL.py" 
+Number of instances in the training set: 24735
+Number of instances in the testing set: 6184
+Confusion Matrix:
+[[3872   21]
+ [  27 2264]]
+True Positives: 2264
+True Negatives: 3872
+False Positives: 21
+False Negatives: 27
+Recall: 0.9882147533828023
+Precision: 0.9908096280087527
+Accuracy: 0.9922380336351876
+F1 Score: 0.9895104895104895
+
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.99      0.99      0.99      3893
+           1       0.99      0.99      0.99      2291
+
+    accuracy                           0.99      6184
+   macro avg       0.99      0.99      0.99      6184
+weighted avg       0.99      0.99      0.99      6184
+
+
+Process finished with exit code 0

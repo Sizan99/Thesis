@@ -1,0 +1,30 @@
+C:\Users\SzN\AppData\Local\Programs\Python\Python311\python.exe "G:\NWU\Python\Thesis on Database Security\DDoS Attack\SVM-DDoS.py" 
+Number of instances in the training set: 180596
+Number of instances in the testing set: 45149
+Training: 100%|██████████| 180596/180596 [06:18<00:00, 477.35it/s]
+Test Accuracy: 0.9933331856741013
+
+Confusion Matrix:
+[[19145   260]
+ [   41 25703]]
+True Positives: 25703
+True Negatives: 19145
+False Positives: 260
+False Negatives: 41
+Recall: 0.9984073958980734
+Precision: 0.9899857489504295
+Accuracy: 0.9933331856741013
+F1 Score: 0.9941787378884871
+
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       1.00      0.99      0.99     19405
+           1       0.99      1.00      0.99     25744
+
+    accuracy                           0.99     45149
+   macro avg       0.99      0.99      0.99     45149
+weighted avg       0.99      0.99      0.99     45149
+
+
+Process finished with exit code 0

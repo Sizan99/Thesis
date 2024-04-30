@@ -1,0 +1,28 @@
+C:\Users\SzN\AppData\Local\Programs\Python\Python311\python.exe "G:\NWU\Python\Thesis on Database Security\Network Attacks\Random Forest-NA.py" 
+Number of instances in the training set: 175341
+Number of instances in the testing set: 82332
+100%|██████████| 175341/175341 [00:30<00:00, 5726.50it/s]
+Confusion Matrix:
+[[27128  9872]
+ [  678 44654]]
+True Positives: 44654
+True Negatives: 27128
+False Positives: 9872
+False Negatives: 678
+Recall: 0.985043677755228
+Precision: 0.8189487583904926
+Accuracy: 0.871860273040859
+F1 Score: 0.8943499769672936
+
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.98      0.73      0.84     37000
+           1       0.82      0.99      0.89     45332
+
+    accuracy                           0.87     82332
+   macro avg       0.90      0.86      0.87     82332
+weighted avg       0.89      0.87      0.87     82332
+
+
+Process finished with exit code 0

@@ -1,0 +1,29 @@
+C:\Users\SzN\AppData\Local\Programs\Python\Python311\python.exe "G:\NWU\Python\Thesis on Database Security\DDoS Attack\Random Forest-DDoS.py" 
+Number of instances in the training set: 180596
+Number of instances in the testing set: 45149
+Training: 100%|██████████| 180596/180596 [00:09<00:00, 19115.11it/s]
+Test Accuracy: 0.9998006600367672
+Confusion Matrix:
+[[19401     4]
+ [    5 25739]]
+True Positives: 25739
+True Negatives: 19401
+False Positives: 4
+False Negatives: 5
+Recall: 0.9998057799875699
+Precision: 0.9998446179543954
+Accuracy: 0.9998006600367672
+F1 Score: 0.9998251985938198
+
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       1.00      1.00      1.00     19405
+           1       1.00      1.00      1.00     25744
+
+    accuracy                           1.00     45149
+   macro avg       1.00      1.00      1.00     45149
+weighted avg       1.00      1.00      1.00     45149
+
+
+Process finished with exit code 0

@@ -1,0 +1,51 @@
+C:\Users\SzN\AppData\Local\Programs\Python\Python311\python.exe "G:\NWU\Python\Thesis on Database Security\Network Attacks\LSTM-NA.py" 
+Number of instances in the training set: 175341
+Number of instances in the testing set: 82332
+Epoch 1/10
+2740/2740 [==============================] - 10s 3ms/step - loss: 0.1631 - accuracy: 0.9332 - val_loss: 0.3320 - val_accuracy: 0.8255
+Epoch 2/10
+2740/2740 [==============================] - 8s 3ms/step - loss: 0.1302 - accuracy: 0.9397 - val_loss: 0.3246 - val_accuracy: 0.8201
+Epoch 3/10
+2740/2740 [==============================] - 7s 3ms/step - loss: 0.1260 - accuracy: 0.9409 - val_loss: 0.3175 - val_accuracy: 0.8268
+Epoch 4/10
+2740/2740 [==============================] - 7s 3ms/step - loss: 0.1237 - accuracy: 0.9418 - val_loss: 0.3275 - val_accuracy: 0.8248
+Epoch 5/10
+2740/2740 [==============================] - 7s 3ms/step - loss: 0.1222 - accuracy: 0.9419 - val_loss: 0.2907 - val_accuracy: 0.8415
+Epoch 6/10
+2740/2740 [==============================] - 7s 3ms/step - loss: 0.1208 - accuracy: 0.9427 - val_loss: 0.3137 - val_accuracy: 0.8329
+Epoch 7/10
+2740/2740 [==============================] - 7s 3ms/step - loss: 0.1195 - accuracy: 0.9433 - val_loss: 0.3172 - val_accuracy: 0.8372
+Epoch 8/10
+2740/2740 [==============================] - 7s 3ms/step - loss: 0.1186 - accuracy: 0.9436 - val_loss: 0.2857 - val_accuracy: 0.8471
+Epoch 9/10
+2740/2740 [==============================] - 7s 3ms/step - loss: 0.1177 - accuracy: 0.9436 - val_loss: 0.2869 - val_accuracy: 0.8470
+Epoch 10/10
+2740/2740 [==============================] - 7s 3ms/step - loss: 0.1166 - accuracy: 0.9445 - val_loss: 0.3091 - val_accuracy: 0.8358
+2573/2573 [==============================] - 3s 1ms/step - loss: 0.3091 - accuracy: 0.8358
+Test Loss: 0.3091084957122803
+Test Accuracy: 0.8357746601104736
+2573/2573 [==============================] - 3s 1ms/step
+Confusion Matrix:
+[[24188 12812]
+ [  709 44623]]
+True Positives: 44623
+True Negatives: 24188
+False Positives: 12812
+False Negatives: 709
+Recall: 0.9843598341127681
+Precision: 0.7769304431096021
+Accuracy: 0.8357746684156828
+F1 Score: 0.8684305273093503
+
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.97      0.65      0.78     37000
+           1       0.78      0.98      0.87     45332
+
+    accuracy                           0.84     82332
+   macro avg       0.87      0.82      0.82     82332
+weighted avg       0.86      0.84      0.83     82332
+
+
+Process finished with exit code 0

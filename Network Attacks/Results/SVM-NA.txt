@@ -1,0 +1,27 @@
+Number of instances in the training set: 175341
+Number of instances in the testing set: 82332
+100%|██████████| 175341/175341 [49:47<00:00, 58.69it/s]
+Confusion Matrix:
+[[19441 17559]
+ [   46 45286]]
+True Positives: 45286
+True Negatives: 19441
+False Positives: 17559
+False Negatives: 46
+Recall: 0.9989852642724786
+Precision: 0.720598297398361
+Accuracy: 0.7861706262449595
+F1 Score: 0.8372574576850902
+
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       1.00      0.53      0.69     37000
+           1       0.72      1.00      0.84     45332
+
+    accuracy                           0.79     82332
+   macro avg       0.86      0.76      0.76     82332
+weighted avg       0.85      0.79      0.77     82332
+
+
+Process finished with exit code 0

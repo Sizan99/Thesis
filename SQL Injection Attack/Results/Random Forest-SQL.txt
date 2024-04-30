@@ -1,0 +1,27 @@
+C:\Users\SzN\AppData\Local\Programs\Python\Python311\python.exe "G:\NWU\Python\Thesis on Database Security\SQL Injection Attack\Random Forest-SQL.py" 
+Number of instances in the training set: 24735
+Number of instances in the testing set: 6184
+Confusion Matrix:
+[[2708 1185]
+ [   4 2287]]
+True Positives: 2287
+True Negatives: 2708
+False Positives: 1185
+False Negatives: 4
+Recall: 0.998254037538193
+Precision: 0.6586981566820277
+Accuracy: 0.8077296248382924
+F1 Score: 0.7936838452195037
+
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       1.00      0.70      0.82      3893
+           1       0.66      1.00      0.79      2291
+
+    accuracy                           0.81      6184
+   macro avg       0.83      0.85      0.81      6184
+weighted avg       0.87      0.81      0.81      6184
+
+
+Process finished with exit code 0
